@@ -1,0 +1,144 @@
+*, body, html{
+    margin: 0;
+    padding: 0;
+    font: 1.03em "Open Sans", "sans-serif";
+}
+
+body{
+    background-color: #eee;
+}
+
+
+
+/*-----------------------------*/
+
+.menu{
+    box-shadow:-1px 15px 1px gray;
+    width:100%;
+    background-color: rgb(155, 20, 20);
+    color: #fff;
+    height: 60px;
+
+}
+.menu #logo{
+    float: left;
+    height: 30px;
+    padding: 15px 0px;
+    font-size: 1.2em;
+    line-height:30px ;
+    
+
+}
+.myimg{
+    width: 130px;
+    float: left;
+    padding:0 0px;
+    font-size: 1.2em;
+    line-height:30px ;
+    
+    
+
+}
+.menu > ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+.menu > ul>li{
+    float: left;
+
+}
+.menu-item{
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    background-color: #ff0055;
+}
+
+/*--------------styleing sub---------------*/
+
+.sub-content{
+    position: absolute;
+    top: 60PX;
+    overflow: hidden;
+    background-color: rgb(155, 20, 20) ;
+    max-height: 0;
+
+}
+
+.sub-content a{
+    color: #fff;
+    text-decoration: none;
+    padding: 30px ;
+    
+}
+.sub-drop{
+    padding: 0;
+}
+
+.sub-drop ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.sub-drop ul li a{
+    direction: inline-block;
+    padding: 10px 20px;
+}
+
+.sub-drop ul li:hover{
+    background-color: #ff0055;  
+}
+
+
+/*--------------CONTROLING---------------*/
+
+.menu-item:focus{
+    background-color: #ff0055;
+}
+
+.menu ul li:hover .sub-content{
+    max-height:400px ;
+    transition: max-hight 0.3s ease-in;
+    -moz-transition: max-hight 0.3s ease-in;
+    -webkit-transition: max-hight 0.3s ease-in;
+}
+
+#rmenu{
+    float: right;
+}
+
+/*--------------CONTROLING---------------*/
+
+.sometext span{
+    color: rgb(155, 20, 20);
+    font-weight: bold;
+}
+
+.sometext{
+    padding-top: 60px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.myimgs{
+    padding-top: 30px;
+    text-align: center;
+   
+    margin: auto;
+}
+.myimgs img{
+    border: 1px solid rgb(0, 0, 0);
+
+}
